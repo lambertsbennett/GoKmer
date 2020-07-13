@@ -8,3 +8,9 @@ quite rapidly and can process large assemblies in seconds on an 8 core laptop.
 ```
 gokmer -file PATH_TO_SEQS -n NUM_PROCESSORS -k-mer-size K_MER_SIZE -o OUTPUT_FILE
 ```
+
+**INPUTS:**
+- Sequence Fasta file.
+
+**OUTPUTS:**
+- Parquet file with sequence ID and k-mers.
