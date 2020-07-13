@@ -21,7 +21,7 @@ func main(){
 	flag.StringVar(&contigfile,"file","","Contig file in fasta format.")
 
 	var out string
-	flag.StringVar(&out,"o",".","Output file.")
+	flag.StringVar(&out,"o","./gokmerout.parquet","Output file.")
 
 	var kmer int
 	flag.IntVar(&kmer,"k-mer-size",0,"K-mer word size to use.")
