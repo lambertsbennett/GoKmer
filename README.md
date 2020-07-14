@@ -1,6 +1,6 @@
 # GoKmer
 
-In the work we are currently undertaking, trying to apply NLP techniques to sequence data, I found that I often needed to expand sequences into k-mers.
+When applying NLP techniques to sequence data, I found that I often needed to expand sequences into k-mers.
 This is not particularly an enriching experience, so I worked on a small tool that concurrently expands sequences into k-mers of a given size. This tool operates
 quite rapidly and can process large assemblies in seconds on an 8 core laptop.
 
